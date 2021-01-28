@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJE.ooo</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="backButton">Zurück</button>
+          <button id="nextButton">Weiter</button>
+        </div>
+      </div>
+      <div id="weekdays">
+        <div>Montag</div>
+        <div>Dienstag</div>
+        <div>Mittwoch</div>
+        <div>THORS-Tag</div>
+        <div>Freitag</div>
+        <div>Samstag</div>
+        <div>Sonntag</div>
+      </div>
+      <div id="calendar"></div>
+    </div>
+
+    <div id="newEventModal">
+      <h2>Neues Ereignis</h2>
+
+      <input id="eventTitleInput" placeholder="Ereignis Titel" />
+
+      <button id="saveButton">Speichern</button>
+      <button id="cancelButton">Abbrechen</button>
+    </div>
+
+    <div id="deleteEventModal">
+      <h2>Ereignis</h2>
+      <p id="eventText"></p>
+      <button id="deleteButton">Löschen</button>
+      <button id="closeButton">Schliessen</button>
+
+    </div>
+    <div id="modalBackDrop"></div>
+    
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
